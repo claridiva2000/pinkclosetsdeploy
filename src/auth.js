@@ -7,7 +7,7 @@ class Auth {
       domain: 'dev-g9ecur1e.auth0.com',
       audience: 'https://dev-g9ecur1e.auth0.com/userinfo',
       clientID: 'DyRObvIXig3WYRuWzZ5Ttgc55Tpdt2H6',
-      redirectUri: '/callback',
+      redirectUri: 'http://localhost:3000/callback',
       responseType: 'id_token',
       scope: 'openid profile'
     });
