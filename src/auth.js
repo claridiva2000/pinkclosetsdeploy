@@ -7,8 +7,7 @@ class Auth {
       domain: 'dev-g9ecur1e.auth0.com',
       audience: 'https://dev-g9ecur1e.auth0.com/userinfo',
       clientID: 'DyRObvIXig3WYRuWzZ5Ttgc55Tpdt2H6',
-      redirectUri:
-        'https://5d59a890ef58548a2b55f87b--nervous-varahamihira-2615ef.netlify.com/callback',
+      redirectUri: '/callback',
       responseType: 'id_token',
       scope: 'openid profile'
     });
@@ -49,7 +48,7 @@ class Auth {
         this.expiresAt = authResult.idTokenPayload.exp * 1000;
         resolve();
       });
-    });
+    })
   }
 
   signOut() {
