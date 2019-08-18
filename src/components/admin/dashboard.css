@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.emailToggle{
+  display:flex; 
+  flex-direction:row; 
+  margin:auto; 
+  border:1px black solid;
+  justify-content:center
+}
+
+.emailList table{
+margin: auto;
+}
+
+.emailList th,td{
+border: 1px gray solid;
+}
+.listId{
+width: 45px
+}
+
+
+
+
