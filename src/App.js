@@ -2,7 +2,7 @@ import React from 'react';
 //routes
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 //redirect
-import SecuredRoute from './components/auth/securedRoute';
+// import SecuredRoute from './components/auth/securedRoute';
 //components
 import Navbar from './components/nav/navbar';
 import BottomNav from './components/nav/bottomnav';
@@ -41,7 +41,7 @@ function App() {
 
      
           <Route exact path="/callback" component={Callback} />
-          <SecuredRoute exact path="/dashboard" component={Dashboard} />
+          <Route exact path="/dashboard" component={Dashboard} />
           <Route component={NotFound}/>
 
         </Switch>
