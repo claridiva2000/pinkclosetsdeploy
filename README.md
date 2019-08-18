@@ -1,0 +1,2 @@
+# pinkclosetsdeploy
+deployed to netlify
