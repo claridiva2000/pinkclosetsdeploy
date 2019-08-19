@@ -5,7 +5,9 @@ export class Blogposts extends Component {
   static propTypes = {};
 
   render() {
-    return <div>Blog</div>;
+    return <div>
+      Blog
+    </div>;
   }
 }
 

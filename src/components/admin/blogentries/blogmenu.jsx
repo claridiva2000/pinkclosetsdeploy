@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import Blogboard from './blogboard';
 import '../dashboard.css';
 const Blogmenu = () => {
-  const [blogMenu, setBlogMenu] = useState(true);
+  const [blogMenu, setBlogMenu] = useState(false);
 
   return (
     <div>
@@ -18,7 +19,7 @@ const Blogmenu = () => {
         </div>
         {blogMenu ? (
           <div className="emailList">
-          blog entry
+         <Blogboard/>
           </div>
         ) : (
           ''
