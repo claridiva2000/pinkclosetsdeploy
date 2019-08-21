@@ -2,3 +2,8 @@
 base = "client/"
 publish = "client/build/"
 command = "yarn build"
+
+[[redirects]]
+  from = "/callback"
+  to = "https://nervous-varahamihira-2615ef.netlify.com/"
+  status = 200
