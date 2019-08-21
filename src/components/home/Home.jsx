@@ -60,8 +60,8 @@ const Home = () => {
           <i className="fab fa-facebook-square" />
         </div>
       </div>
-      <div className="box1" style={{height:'60vh'}}>
-        <h2 style={{marginBottom:'710px'}}>
+      <div className="box1" style={{height:'60vh', padding:'30px'}}>
+        <h2 style={{marginBottom:'510px'}}>
           "Peace and Order on the Outside Creates Peace and Order on the
           Inside."
         </h2>
