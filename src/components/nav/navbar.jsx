@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Logo from "./logo";
 import { NavLink, withRouter } from "react-router-dom";
-import auth0Client from '../../auth';
+import auth0Client from '../../utils/auth';
 import "./navbar.css";
 
 

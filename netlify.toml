@@ -1,0 +1,4 @@
+[build]
+base = "pinkclosetsdeploy/"
+publish = "pinkclosetsdeploy/build/"
+command = "yarn build"

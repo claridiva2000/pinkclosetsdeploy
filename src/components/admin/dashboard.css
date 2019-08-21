@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+.dashboard{
+  padding-top:150px;
+}
+
 .emailToggle{
   display:flex; 
   flex-direction:row; 

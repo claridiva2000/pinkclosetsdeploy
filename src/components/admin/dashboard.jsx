@@ -8,7 +8,7 @@ const Dashboard = () => {
   
 
   return (
-    <div>
+    <div className='dashboard'>
       {/* <Newblog/> */}
       <h2>Admin Dashboard</h2>
       <Newslettermenu/>

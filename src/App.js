@@ -41,7 +41,7 @@ function App() {
 
      
           <Route exact path="/callback" component={Callback} />
-          <Route exact path="/dashboard" component={Dashboard} />
+          <SecuredRoute exact path="/dashboard" component={Dashboard} />
           <Route component={NotFound}/>
 
         </Switch>
