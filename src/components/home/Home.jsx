@@ -72,7 +72,7 @@ const Home = () => {
       <div className="box4" style={{height:'40vh', padding: '30px'}}>
 
       <div style={{display:'flex', flexDirection:'row',  width:'80%'}}><img src="https://p3plcpnl0791.prod.phx3.secureserver.net:2083/cpsess2089678795/viewer/home%2fj9xj14remmy9%2fpublic_html/customer.jpg" alt="review1" style={{width:'220px', height:'270px', borderRadius:'100%'}}/> <h4 style={{position: 'relative', bottom:'30px', width:'70%'}}> 
-      <span style={{color:"#955465", fontSize:'4rem'}}>"</span>I hired <span style={{color:"#955465", fontSize:'2rem'}}>Pink|</span>Closets to come help me with a move. My daughters’ room was a mess. They had cleaned up and packed within 2 hours. They were very efficient and that job was done very well. Their prices were very reasonable.  I was impressed with how professional they were. <br/>I will be hiring them again very soon to help with two other rooms.<span style={{color:"#955465", fontSize:'4rem'}}>"</span></h4></div>  
+      <span style={{color:"#955465", fontSize:'3rem'}}>"</span>I hired <span style={{color:"#955465", fontSize:'1.3rem'}}>Pink|</span>Closets to come help me with a move. My daughters’ room was a mess. They had cleaned up and packed within 2 hours. They were very efficient and that job was done very well. Their prices were very reasonable.  I was impressed with how professional they were. <br/>I will be hiring them again very soon to help with two other rooms.<span style={{color:"#955465", fontSize:'4rem'}}>"</span></h4></div>  
       
 
        
