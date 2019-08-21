@@ -37,7 +37,7 @@ const Home = () => {
         </div>
       </div>
       <div className="box2" style={{ height: '50vh' }}>
-        <h2 style={{ position:'relative', top:'-100px', width:'80%' }}>
+        <h2 style={{ position:'relative', top:'0px', width:'80%' }}>
           Pink|Closets is dedicated to helping you get your life in order by
           organizing the things that are a part of you.
         </h2>
