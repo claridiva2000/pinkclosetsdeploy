@@ -41,8 +41,8 @@ const Home = () => {
           Pink|Closets is dedicated to helping you get your life in order by
           organizing the things that are a part of you.
         </h2>
-        <p>Join our newsletter!</p>
-        <form style={{ display: 'flex', flexDirection: 'column', justifyContent:'space-between', height:'100px', marginBottom:'50px' }}>
+        <h4 style={{ marginTop:'40px' }}>Join our newsletter!</h4>
+        <form style={{ display: 'flex', flexDirection: 'column', justifyContent:'space-between', height:'100px', marginBottom:'70px' }}>
           <input type="text" placeholder="name" style={{padding:'10px', width:'300px'}} />
           <input type="email" placeholder="email" style={{padding:'10px', width:'300px'}} />
         </form>
