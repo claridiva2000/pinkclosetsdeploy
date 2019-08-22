@@ -37,7 +37,7 @@ const Home = () => {
         </div>
       </div>
       <div className="box2" style={{ height: '50vh' }}>
-        <h2 style={{ position:'relative', top:'100px', width:'80%', backgroundColor:"#EBE3D8" }}>
+        <h2 style={{ position:'relative', top:'10px', width:'90%' }}>
           Pink|Closets is dedicated to helping you get your life in order by
           organizing the things that are a part of you.
         </h2>
@@ -71,8 +71,8 @@ const Home = () => {
      
       <div className="box4" style={{height:'40vh', padding: '30px'}}>
 
-      <div style={{display:'flex', flexDirection:'row',  width:'80%'}}><img src="https://p3plcpnl0791.prod.phx3.secureserver.net:2083/cpsess0578632179/viewer/home%2fj9xj14remmy9%2fpublic_html/Capture.JPG" alt="review1" style={{width:'220px', height:'270px', borderRadius:'100%'}}/> <h4 style={{position: 'relative', bottom:'30px', width:'70%'}}> 
-      <span style={{color:"#955465", fontSize:'4rem'}}>"</span>I hired <span style={{color:"#955465", fontSize:'2rem'}}>Pink|</span>Closets to come help me with a move. My daughters’ room was a mess. They had cleaned up and packed within 2 hours. They were very efficient and that job was done very well. Their prices were very reasonable.  I was impressed with how professional they were. <br/>I will be hiring them again very soon to help with two other rooms.<span style={{color:"#955465", fontSize:'4rem'}}>"</span></h4></div>  
+      <div style={{display:'flex', flexDirection:'row',  width:'80%'}}><img src="https://p3plcpnl0791.prod.phx3.secureserver.net:2083/cpsess1503440303/viewer/home%2fj9xj14remmy9%2fpublic_html/customer.jpg" alt="review1" style={{width:'220px', height:'270px', borderRadius:'100%'}}/> <h4 style={{position: 'relative', bottom:'30px', width:'70%'}}> 
+      <span style={{color:"#955465", fontSize:'3rem'}}>"</span>I hired <span style={{color:"#955465", fontSize:'1.3rem'}}>Pink|</span>Closets to come help me with a move. My daughters’ room was a mess. They had cleaned up and packed within 2 hours. They were very efficient and that job was done very well. Their prices were very reasonable.  I was impressed with how professional they were. <br/>I will be hiring them again very soon to help with two other rooms.<span style={{color:"#955465", fontSize:'4rem'}}>"</span></h4></div>  
       
 
        
