@@ -42,6 +42,7 @@ nav {
   display: flex;
   font-size: 1.8rem;
   justify-content: space-evenly;
+  flex-direction:column;
   width: 80%;
   margin: auto;
   text-decoration: none;
