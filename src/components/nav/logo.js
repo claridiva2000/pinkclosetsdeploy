@@ -1,17 +1,19 @@
 import React from 'react';
+import './navbar.css';
 
 const logo = () => {
   return (
-    <div style={{ margin: '0px', display: 'flex', justifyContent:'center', borderBottom:'1px solid' }}>
+    <div className='logo'>
+
+    <h1 className='pc'>  
+    <span className='pink'>Pink</span>
+      <span style={{ color: '#212529', fontSize: '4rem' }}>|Closets</span></h1>
+      
+        <p style={{position:'relative', bottom:'15px',  width:'250px', margin:'auto', paddingTop:'5px'}}>Professional Home Organization </p>
      
-      <div style={{padding:'0'}}>
-      <span style={{ color: '#955465', fontSize: '3.5rem', margin: '0', padding:'0px' }}>
-          Pink
-        </span>
-        <span style={{ color: '#212529', fontSize: '1.8rem' }}>|Closets</span>
-        <p style={{padding:'0', margin:'0px'}}>Professional Home Organization </p>
       </div>
-    </div>
+      
+   
   );
 };
 

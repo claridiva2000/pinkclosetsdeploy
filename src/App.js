@@ -37,8 +37,6 @@ function App() {
           <Route exact path="/gallery" component={Gallery} />
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/contact" component={Contact} />
-
-
      
           <Route exact path="/callback" component={Callback} />
           <SecuredRoute exact path="/dashboard" component={Dashboard} />
