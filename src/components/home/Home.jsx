@@ -25,7 +25,7 @@ const Home = () => {
               border: '1px solid black',
               fontSize: '2rem',
               opacity: '.95',
-              marginBottom: '50px'
+              marginBottom: '20px'
             }}
           >
             About
@@ -41,7 +41,7 @@ const Home = () => {
               border: '1px solid black',
               fontSize: '2rem',
               opacity: '.95',
-              marginBottom: '50px'
+              marginBottom: '20px'
             }}
           >
             Services
@@ -57,7 +57,7 @@ const Home = () => {
               border: '1px solid black',
               fontSize: '2rem',
               opacity: '.95',
-              marginBottom: '50px'
+              marginBottom: '20px'
             }}
           >
             Gallery
