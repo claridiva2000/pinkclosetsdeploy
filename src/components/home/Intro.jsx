@@ -19,7 +19,7 @@ const Intro = () => {
             is your home. We understand that this can be an emotional process
             and specialize in helping clients who have difficulty "letting go".
           </p>
-          <img style={{maxWidth:'600px', marginBottom:'20px'}}src='https://images.pexels.com/photos/15964/pexels-photo.jpg' alt=''/>
+          <img style={{width: '80%', marginBottom:'20px'}}src='https://images.pexels.com/photos/15964/pexels-photo.jpg' alt=''/>
 
           <h2 style={{ fontSize: '2.5rem', textDecoration: 'underline', color:'#955465', marginBottom:'20px' }}>
             "Peace and Order on the Outside Creates Peace and Order on the

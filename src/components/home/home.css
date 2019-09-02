@@ -27,10 +27,10 @@
 .box2{
   background-image: url("https://p3plcpnl0791.prod.phx3.secureserver.net:2083/cpsess7375461246/viewer/home%2fj9xj14remmy9%2fpublic_html/stuff.jpg");
   background-size: cover;
-  background-position: -20px ; 
+  background-position: -33px ; 
   height:50vh;
   margin: 15px;
-  min-width:550px;
+  min-width:300px;
   display:flex
 }
 
