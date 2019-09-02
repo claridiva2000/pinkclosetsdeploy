@@ -19,7 +19,7 @@ const Home = () => {
           <div
             style={{
               background: 'white',
-              padding: '40px',
+              padding: '20px',
               width: '100%',
               margin: 'auto',
               border: '1px solid black',
@@ -35,7 +35,7 @@ const Home = () => {
           <div
             style={{
               background: 'white',
-              padding: '40px',
+              padding: '20px',
               width: '100%',
               margin: 'auto',
               border: '1px solid black',
@@ -51,7 +51,7 @@ const Home = () => {
           <div
             style={{
               background: 'white',
-              padding: '40px',
+              padding: '20px',
               width: '100%',
               margin: 'auto',
               border: '1px solid black',
