@@ -82,7 +82,8 @@ function Navbar(props) {
                         // onClick={auth0Client.signIn}
                         // style={{ cursor: 'pointer', color: '#955465' }}
                       >
-                        Admin
+                         <NavLink to="/login" activeStyle={activelinkStyle}>Admin</NavLink>
+                        
                       </p>
                     )}
                     {auth0Client.isAuthenticated() && (

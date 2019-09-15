@@ -13,7 +13,7 @@ import Gallery from './components/gallery/gallery';
 import Blog from './components/blog/Blogposts';
 import Contact from './components/contact/contact';
 import NotFound from './components/routing/NotFound';
-
+import Login from './components/login/login';
 
 import Dashboard from './components/admin/dashboard';
 import Callback from './components/admin/callback';
@@ -37,6 +37,7 @@ function App() {
           <Route exact path="/gallery" component={Gallery} />
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/login" component={Login} />
      
           <Route exact path="/callback" component={Callback} />
           <SecuredRoute exact path="/dashboard" component={Dashboard} />

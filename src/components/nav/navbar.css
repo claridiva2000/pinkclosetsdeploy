@@ -4,13 +4,20 @@
 }
 
 .logo{
-  display: flex;
+  /* display: flex;
   flex-direction:column;
-  justify-content:center;
+  justify-content:center; */
   background: #FFF9F3;
   font-family: 'Great Vibes', cursive;
   font-size: 1.9rem;
-  height:120px
+  height:150px
+}
+
+.logoImg{
+  width: 300px;
+  /* border: #955465 1px solid; */
+  position: relative;
+  top: -100px
 }
 
 .pc{
