@@ -1,0 +1,27 @@
+.aboutCont{
+  padding-top:70px; 
+  font-size:1.5rem;
+  background: #F7F1EB;
+  height: 100%
+}
+
+.dawneshia{
+  float:left; 
+  margin:10px; 
+  border: 1px  solid #955465;
+  width: 300px
+}
+
+.jessica{
+  float:right; 
+  margin:10px; 
+  border: 1px  solid #955465;
+  width: 300px
+}
+
+.Janell{
+  float:left; 
+  margin:10px; 
+  border: 1px  solid #955465;
+  width: 300px
+}

@@ -62,7 +62,7 @@ function Navbar(props) {
                   <li
                    
                   >
-                    <NavLink to="/blog" activestyle={activelinkStyle}>
+                    {/* <NavLink to="/blog" activestyle={activelinkStyle}>
                       Blog
                     </NavLink>
                   </li>
@@ -75,7 +75,7 @@ function Navbar(props) {
                   </li>
                   <li
                    
-                  >
+                  > */}
                     {!auth0Client.isAuthenticated() && (
                       <p
                         activestyle={activelinkStyle}

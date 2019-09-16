@@ -1,0 +1,46 @@
+.servicesCont{
+  background: #FFF9F3;
+  padding: 10px;
+   height: 110%
+}
+
+h4{
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  line-height: 1.9rem
+
+}
+
+h2{
+  text-decoration: underline;
+}
+
+.services{
+  /* border: 1px solid #955465; */
+  max-width: 1000px;
+  margin: auto
+}
+
+.pricing{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}
+.columns{
+  border: #955465 1px solid;
+  margin: 10px;
+  max-width: 600px;
+  padding: 12px
+}
+
+.columns p{
+  font-size: 1.4rem
+}
+
+table{
+  margin: auto;
+  width: 50%;
+  font-size: 1.5rem
+}
+

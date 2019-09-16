@@ -32,8 +32,13 @@
   background-image: url('https://images.unsplash.com/photo-1523865236457-3ae3358a4eaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
   background-size: cover;
   background-position: -130px;
-  repeat: no-repeat;
+  /* repeat: no-repeat; */
   height: 50vh;
   margin: 15px;
   display: flex;
+}
+
+i{
+  font-size:3rem;
+  margin: 10px
 }

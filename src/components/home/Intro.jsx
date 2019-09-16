@@ -42,8 +42,8 @@ const Intro = () => {
             alt="owner"
             style={{ borderRadius: '100%', width: '250px', margin: 'auto' }}
           />
-          <h3 style={{ margin: 'auto' }}>Owner</h3>
-          <p style={{ fontSize: '1.8rem' }}>
+          <h3 style={{ margin: 'auto', position:'relative', top:'-60px' }}>Owner</h3>
+          <p style={{ fontSize: '1.8rem', marginTop:'-100' }}>
             Dawneshia Webb is the Owner and Founder of Pink|Closets. Growing up
             she has always had a passion for organizing and arranging. In 2016
             Dawneshia decided to step out on faith and turn her passion into a
@@ -52,6 +52,16 @@ const Intro = () => {
             Degree in Business Administration, and she is also a Certified
             Lisenced Wedding Coordinator.
           </p>
+          <div style={{borderTop:'1px solid pink', paddingTop:'20px'}}>
+            <h3>Connect</h3>
+            {/* <a > <i className="fab fa-twitter-square"></i></a>  */}
+           
+            <a href='https://www.instagram.com/pink_closets_18/'> <i className="fab fa-instagram"></i></a> 
+           
+            <a href='https://www.facebook.com/pinkclosets18/'><i className="fab fa-facebook-square"></i></a> 
+            
+
+            </div> 
         </Col>
       </Row>
     </Container>
