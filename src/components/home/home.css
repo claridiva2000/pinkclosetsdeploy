@@ -49,7 +49,9 @@ a{
 
 a:hover 
 {
-     color:#FC63DD; 
+    
      text-decoration:none; 
-     cursor:pointer;  
+     cursor:pointer; 
+     color:#FC63DD 
+    
 }
