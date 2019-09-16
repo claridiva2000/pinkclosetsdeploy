@@ -2,6 +2,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Intro from './Intro';
+import {Link} from 'react-router-dom';
 import './home.css';
 
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
         }}
       >
         <Col lg className="box1">
-          <div
+         <div
             style={{
               background: 'white',
               padding: '20px',
@@ -28,8 +29,10 @@ const Home = () => {
               marginBottom: '20px'
             }}
           >
+             <Link to='/about'>
             About
-          </div>
+            </Link>
+          </div> 
         </Col>
         <Col lg className="box2">
           <div
@@ -44,7 +47,9 @@ const Home = () => {
               marginBottom: '20px'
             }}
           >
+             <Link to='/services'>
             Services
+            </Link>
           </div>
         </Col>
         <Col lg className="box3">
@@ -60,7 +65,9 @@ const Home = () => {
               marginBottom: '20px'
             }}
           >
+            <Link to='/gallery'>
             Gallery
+            </Link>
           </div>
         </Col>
       </Row>

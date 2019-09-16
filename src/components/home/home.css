@@ -42,3 +42,14 @@ i{
   font-size:3rem;
   margin: 10px
 }
+
+a{
+  text-decoration:none;
+}
+
+a:hover 
+{
+     color:#FC63DD; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
