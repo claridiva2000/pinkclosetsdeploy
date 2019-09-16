@@ -21,8 +21,8 @@ function Navbar(props) {
 
         <Accordion defaultActiveKey="1" style={{width:'100%', background:'#FFF9F3'}}>
           <Card style={{ background:'#FFF9F3'}}>
-            <Card.Header>
-              <Accordion.Toggle variant="link" eventKey="0" style={{fontSize:'2rem'}}>
+            <Card.Header style={{height:'50px'}}>
+              <Accordion.Toggle variant="link" eventKey="0" style={{fontSize:'1.5rem', background:'none', marginTop:'-20px'}}>
               <i  className="fas fa-bars" ></i>  Menu
               </Accordion.Toggle>
             </Card.Header>
@@ -97,6 +97,12 @@ function Navbar(props) {
                         Sign Out
                       </p>
                     )}
+                  </li>
+                  <li>
+                  <a href='https://www.instagram.com/pink_closets_18/'> <i className="fab fa-instagram"></i></a> 
+           
+           <a href='https://www.facebook.com/pinkclosets18/'><i className="fab fa-facebook-square"></i></a> 
+           
                   </li>
                 </ul>
               </Card.Body>

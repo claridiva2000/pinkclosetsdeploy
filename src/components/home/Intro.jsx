@@ -42,8 +42,11 @@ const Intro = () => {
             alt="owner"
             style={{ borderRadius: '100%', width: '250px', margin: 'auto' }}
           />
-          <h3 style={{ margin: 'auto', position:'relative', top:'-60px' }}>Owner</h3>
+          {/* <h3 style={{ margin: 'auto', position:'relative', top:'-60px' }}></h3> */}
           <p style={{ fontSize: '1.8rem', marginTop:'-100' }}>
+          Owner
+          <br/>
+          <br/>
             Dawneshia Webb is the Owner and Founder of Pink|Closets. Growing up
             she has always had a passion for organizing and arranging. In 2016
             Dawneshia decided to step out on faith and turn her passion into a
