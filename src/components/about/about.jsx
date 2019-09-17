@@ -23,7 +23,7 @@ const about = props => {
     
     </div>
 
-    <div style={{marginTop:'100px', paddingBottom:'80px',lineHeight:'2rem'}} >
+    <div style={{marginTop:'100px', paddingBottom:'100px',lineHeight:'2rem'}} >
     <img className='Janell' src="https://p3plcpnl0791.prod.phx3.secureserver.net:2083/cpsess4042532781/viewer/home%2fj9xj14remmy9%2fpublic_html/manager.png" alt='owner' />
     
     <p style={{paddingTop:'50px'}}>Janell Gines is the office manager for Pink Closets. She’s been with the company since it was founded. 
