@@ -22,7 +22,8 @@ const PhotoGallery = props => {
 
   return (
     <div style={{background:'#FFF9F3', minHeight:'100vh', padding:'50px'}}>
-      <div>
+      <div  style={{ maxWidth: "1350px",
+    margin: "auto"}}>
       <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
