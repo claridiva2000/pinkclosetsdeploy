@@ -15,54 +15,52 @@ function Navbar(props) {
   };
 
   return (
-    
     <>
-        <Logo />
+      <Logo />
 
-        <Accordion defaultActiveKey="1" style={{width:'100%', background:'#FFF9F3'}}>
-          <Card style={{ background:'#FFF9F3'}}>
-            <Card.Header style={{height:'50px'}}>
-              <Accordion.Toggle variant="link" eventKey="0" style={{fontSize:'1.5rem', background:'none', marginTop:'-20px'}}>
-              <i  className="fas fa-bars" ></i>  Menu
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="0">
-              <Card.Body>
-                <ul
-                  className='navlinks'
-                >
-                  <li
-                  
-                  >
-                    <NavLink to="/" activestyle={activelinkStyle}>
-                      Home
-                    </NavLink>
-                  </li>
-                  <li
-                  
-                  >
-                    <NavLink to="/about" activestyle={activelinkStyle}>
-                      About
-                    </NavLink>
-                  </li>
-                  <li
-                 
-                  >
-                    <NavLink to="/services" activestyle={activelinkStyle}>
-                      Services
-                    </NavLink>
-                  </li>
-                  <li
-                   
-                  >
-                    <NavLink to="/gallery" activestyle={activelinkStyle}>
-                      Gallery
-                    </NavLink>
-                  </li>
-                  <li
-                   
-                  >
-                    {/* <NavLink to="/blog" activestyle={activelinkStyle}>
+      <Accordion
+        defaultActiveKey="1"
+        style={{ width: '100%', background: '#FFF9F3' }}
+      >
+        <Card style={{ background: '#FFF9F3' }}>
+          <Card.Header style={{ height: '50px' }}>
+            <Accordion.Toggle
+              variant="link"
+              eventKey="0"
+              style={{
+                fontSize: '1.5rem',
+                background: 'none',
+                marginTop: '-20px'
+              }}
+            >
+              <i className="fas fa-bars"></i> Menu
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="0">
+            <Card.Body>
+              <ul className="navlinks">
+                <li>
+                  <NavLink to="/" activestyle={activelinkStyle}>
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/about" activestyle={activelinkStyle}>
+                    About
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/services" activestyle={activelinkStyle}>
+                    Services
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/gallery" activestyle={activelinkStyle}>
+                    Gallery
+                  </NavLink>
+                </li>
+                <li>
+                  {/* <NavLink to="/blog" activestyle={activelinkStyle}>
                       Blog
                     </NavLink>
                   </li>
@@ -76,43 +74,45 @@ function Navbar(props) {
                   <li
                    
                   > */}
-                    {!auth0Client.isAuthenticated() && (
-                      <p
-                        activestyle={activelinkStyle}
-                        // onClick={auth0Client.signIn}
-                        // style={{ cursor: 'pointer', color: '#955465' }}
-                      >
-                         <NavLink to="/login" activeStyle={activelinkStyle}>Admin</NavLink>
-                        
-                      </p>
-                    )}
-                    {auth0Client.isAuthenticated() && (
-                      <p
-                        activestyle={activelinkStyle}
-                        onClick={() => {
-                          signOut();
-                        }}
-                        style={{ cursor: 'pointer', color: '#955465' }}
-                      >
-                        Sign Out
-                      </p>
-                    )}
-                  </li>
-                  <li>
-                  <a href='https://www.instagram.com/pink_closets_18/'> <i className="fab fa-instagram"></i></a> 
-           
-           <a href='https://www.facebook.com/pinkclosets18/'><i className="fab fa-facebook-square"></i></a> 
-           
-                  </li>
-                </ul>
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-        </Accordion>
+                  {!auth0Client.isAuthenticated() && (
+                    <p
+                      activestyle={activelinkStyle}
+                      // onClick={auth0Client.signIn}
+                      // style={{ cursor: 'pointer', color: '#955465' }}
+                    >
+                      <NavLink to="/login" activeStyle={activelinkStyle}>
+                        Admin
+                      </NavLink>
+                    </p>
+                  )}
+                  {auth0Client.isAuthenticated() && (
+                    <p
+                      activestyle={activelinkStyle}
+                      onClick={() => {
+                        signOut();
+                      }}
+                      style={{ cursor: 'pointer', color: '#955465' }}
+                    >
+                      Sign Out
+                    </p>
+                  )}
+                </li>
+              </ul>
+              <div>
+                  <a href="https://www.instagram.com/pink_closets_18/">
+                    {' '}
+                    <i className="fab fa-instagram"></i>
+                  </a>
 
-      </>
-   
- 
+                  <a href="https://www.facebook.com/pinkclosets18/">
+                    <i className="fab fa-facebook-square"></i>
+                  </a>
+                </div>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+      </Accordion>
+    </>
   );
 }
 

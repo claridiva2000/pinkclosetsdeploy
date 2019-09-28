@@ -49,7 +49,7 @@ nav {
   display: flex;
   font-size: 1.8rem;
   justify-content: space-evenly;
-  flex-direction:column;
+  flex-direction:row;
   width: 80%;
   margin: auto;
   text-decoration: none;
