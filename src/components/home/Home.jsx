@@ -2,12 +2,14 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Intro from './Intro';
+import LoopModeInfinityLoop from './review';
 import {Link} from 'react-router-dom';
 import './home.css';
 
 const Home = () => {
   return (
     <div className="home" style={{ background: 'white', padding: '15px' }}>
+      <div className='width'>
       <Row
         style={{
           maxWidth: '2000px',
@@ -72,6 +74,8 @@ const Home = () => {
         </Col>
       </Row>
       <Intro />
+      </div>
+<LoopModeInfinityLoop/>
     </div>
   );
 };

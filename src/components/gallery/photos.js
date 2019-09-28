@@ -1,47 +1,53 @@
 export const photos = [
   {
-    src: "https://p3plcpnl0791.prod.phx3.secureserver.net:2083/cpsess4042532781/viewer/home%2fj9xj14remmy9%2fpublic_html/closetb4aftr2.jpg",
+    src: "https://res.cloudinary.com/chefportfolio/image/upload/v1569650657/afteroffice_a3362s.jpg",
+    width: 4,
+    height: 3
+  },
+  
+  {
+    src: "https://res.cloudinary.com/chefportfolio/image/upload/v1569650755/closetb4aftr2_1_fbmpuh.jpg",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://res.cloudinary.com/chefportfolio/image/upload/v1569650657/afteroffice_a3362s.jpg",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://res.cloudinary.com/chefportfolio/image/upload/v1569650745/closetb4aftr_1_bpmvxx.jpg",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://res.cloudinary.com/chefportfolio/image/upload/v1569650736/brochure_sonxd4.png",
     width: 4,
     height: 3
   },
   {
-    src: "https://p3plcpnl0791.prod.phx3.secureserver.net:2083/cpsess4042532781/viewer/home%2fj9xj14remmy9%2fpublic_html/afteroffice.jpg",
+    src: "https://res.cloudinary.com/chefportfolio/image/upload/v1569650729/bedb44_qxr7ef.jpg",
+    width: 3,
+    height: 4
+  },
+  {
+    src: "https://res.cloudinary.com/chefportfolio/image/upload/v1569650721/b4afteroffice_zedadr.jpg",
     width: 4,
-    height: 4
+    height: 3
   },
   {
-    src: "https://p3plcpnl0791.prod.phx3.secureserver.net:2083/cpsess4042532781/viewer/home%2fj9xj14remmy9%2fpublic_html/closetb4aftr.jpg",
-    width: 3,
-    height: 4
+    src: "https://res.cloudinary.com/chefportfolio/image/upload/v1569650716/b4afterlivingroom_tbgkqu.jpg",
+    width: 4,
+    height: 3
   },
   {
-    src: "https://p3plcpnl0791.prod.phx3.secureserver.net:2083/cpsess4042532781/viewer/home%2fj9xj14remmy9%2fpublic_html/b4afteroffice.jpg",
-    width: 3,
-    height: 4
+    src: "https://res.cloudinary.com/chefportfolio/image/upload/v1569650773/philanthropy_e6fj0p.png",
+    width: 4,
+    height: 3
   },
   {
-    src: "https://p3plcpnl0791.prod.phx3.secureserver.net:2083/cpsess4042532781/viewer/home%2fj9xj14remmy9%2fpublic_html/b4afterlivingroom.jpg",
-    width: 3,
-    height: 4
+    src: "https://res.cloudinary.com/chefportfolio/image/upload/v1569650767/pose_vxbeby.png",
+    width: 1,
+    height: 1
   },
-  // {
-  //   src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-  //   width: 4,
-  //   height: 3
-  // },
-  // {
-  //   src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-  //   width: 3,
-  //   height: 4
-  // },
-  // {
-  //   src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-  //   width: 4,
-  //   height: 3
-  // },
-  // {
-  //   src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-  //   width: 4,
-  //   height: 3
-  // }
 ];

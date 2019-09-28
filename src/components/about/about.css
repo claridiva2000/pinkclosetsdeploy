@@ -1,27 +1,30 @@
 .aboutCont{
   padding-top:70px; 
-  font-size:1.5rem;
+  font-size:1.55rem;
   background: #F7F1EB;
-  height: 100%
+  height: 100%;
+ 
+}
+
+.width{
+  max-width: 1350px;
+  margin: auto;
+  padding-bottom:50px
 }
 
 .dawneshia{
   float:left; 
   margin:10px; 
   border: 1px  solid #955465;
-  width: 300px
+  width: 300px;
+  line-height: 2.5rem
 }
 
-.jessica{
+.janell{
   float:right; 
   margin:10px; 
   border: 1px  solid #955465;
-  width: 300px
+  width: 300px;
+  line-height: 2.5rem
 }
 
-.Janell{
-  float:left; 
-  margin:10px; 
-  border: 1px  solid #955465;
-  width: 300px
-}

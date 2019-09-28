@@ -4,12 +4,18 @@
   border: 0;
 }
 
+.width{
+  max-width: 1350px;
+  margin: auto;
+  padding-bottom:50px
+}
+
 .home {
   padding-top: 50px;
 }
 
 .box1 {
-  background-image: url('https://images.unsplash.com/photo-1461418559055-6f020c5a91e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1301&q=80');
+  background-image: url('../../assetts/coffeetable.jpg');
   background-size: cover;
   height: 50vh;
   margin: 15px;
@@ -19,9 +25,9 @@
 }
 
 .box2 {
-  background-image: url('https://p3plcpnl0791.prod.phx3.secureserver.net:2083/cpsess4042532781/viewer/home%2fj9xj14remmy9%2fpublic_html/stuff.jpg');
+  background-image: url('../../assetts/stuff.JPG');
   background-size: cover;
-  background-position: -33px;
+  background-position: -19px;
   height: 50vh;
   margin: 15px;
   min-width: 250px;
@@ -54,4 +60,17 @@ a:hover
      cursor:pointer; 
      color:#FC63DD 
     
+}
+
+.swiper-button-next{
+  background-image: url("../../assetts/chevron-right.png")
+
+}
+.swiper-button-prev{
+  background-image: url("../../assetts/chevron-right.png");
+  transform: rotate(180deg)
+}
+
+.swiper-pagination-bullet-active{
+  background:#955465
 }
