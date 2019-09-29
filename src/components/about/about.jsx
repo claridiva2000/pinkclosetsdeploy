@@ -15,7 +15,7 @@ const about = props => {
     <h3>"But all things should be done decently and in order"</h3>
     </div>
 
-    <div className='width' style={{marginTop:'100px', paddingBottom:'150px'}} >
+    <div className='width' style={{marginTop:'70px', paddingBottom:'150px'}} >
     <img className='janell' src={janell} alt='owner' />
     
      
