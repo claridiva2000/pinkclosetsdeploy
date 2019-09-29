@@ -28,3 +28,24 @@
   line-height: 2.5rem
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .width{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .dawneshia{
+  float:none; 
+  margin:auto; 
+ 
+}
+
+.janell{
+  float:none; 
+  margin:auto; 
+
+}
+
+}
