@@ -70,3 +70,14 @@ a {
   font-size:2rem
 
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .navlinks {
+    display: flex;
+    font-size: 1.8rem;
+    justify-content: space-evenly;
+    flex-direction:column;
+   
+  }
+}

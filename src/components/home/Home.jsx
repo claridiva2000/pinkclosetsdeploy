@@ -75,7 +75,8 @@ const Home = () => {
       </Row>
       <Intro />
       </div>
-<LoopModeInfinityLoop/>
+      <div style={{maxWidth:'1350px', margin:'auto'}}><LoopModeInfinityLoop/></div> 
+
     </div>
   );
 };
